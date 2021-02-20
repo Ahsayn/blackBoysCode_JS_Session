@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- This is my Page Title -->
+    <title>Math Operators</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/operators.js" defer></script>
+  </head>  
+  
+  
+  <body>
+    <h1>Math Operators</h1>
+    
+    <p id="myParagraph">
+      Enter some numbers and then press a button to see the operator result
+    </p>
+    
+    
+<!-- Inputs   -->
+    <form>
+      <label>Number A</label>
+       <input type="number" id="numberA" value="1">
+      
+      <br>
+      
+      <label>Number B</label>
+      <input type="number" id="numberB" value="1">
+    </form>
+    <br>
+    
+<!-- Buttons -->
+    <button id="buttonAdd" onclick="add()">
+      Addition
+    </button>
+    <br>
+    <button id="buttonSub" onclick="subtract()">
+      Subtraction
+    </button>
+    <br>
+    <button id="buttonMult" onclick="multiply()">
+      Multiplication
+    </button>
+    <br>
+    <button id="buttonDiv" onclick="divide()">
+      Division
+    </button>
+    
+<!-- Output -->
+    <h2 id="output">
+      The result of the math will go here
+    </h2>
+    
+    <p>
+      Can you make the subtraction button work by creating the function?
+    </p>
+
+
+  </body>
+</html>

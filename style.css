@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+button {
+	background: #44a25b;
+	border: none !important;
+	padding: 5px;
+	margin: 5px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+#output {
+	margin: 5px auto;
+	text-align: center;
+	border: 3px solid #777;
+	border-radius: 6px;
+	padding: 5px;
+  color: #888;
+}
+
+.gameBtn {
+	display: inline-block;
+	width: 155px;
+	background: none !important;
+}

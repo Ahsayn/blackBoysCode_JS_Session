@@ -10,3 +10,5 @@ This project includes 4 different simple web exercises designed to help students
 
 There are some obvious bugs and areas of improvement placed in each exercise so that students can learn by
 analysing the code based on what they have learned, fixing bugs and improving the UI and logic.
+
+Project is hosted here: https://glitch.com/edit/#!/flaxen-mango-harbor
